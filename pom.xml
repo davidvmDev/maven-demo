@@ -75,6 +75,8 @@
             <version>1.19.0</version>
             <configuration>
               <gitFlowConfig>
+                  <releaseBranchPrefix>release/RC-</releaseBranchPrefix>
+                  <hotfixBranchPrefix>hotfix/HF-</hotfixBranchPrefix>
                   <developmentBranch>development</developmentBranch>
                   <productionBranch>development</productionBranch>
               </gitFlowConfig>
