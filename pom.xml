@@ -78,7 +78,7 @@
                   <releaseBranchPrefix>release/RC-</releaseBranchPrefix>
                   <hotfixBranchPrefix>hotfix/HF-</hotfixBranchPrefix>
                   <developmentBranch>development</developmentBranch>
-                  <productionBranch>development</productionBranch>
+                  <productionBranch>master</productionBranch>
               </gitFlowConfig>
             </configuration>
         </plugin>
