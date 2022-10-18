@@ -6,7 +6,7 @@
 
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>3.0</version>
 
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
@@ -78,7 +78,7 @@
                   <releaseBranchPrefix>release/RC-</releaseBranchPrefix>
                   <hotfixBranchPrefix>hotfix/HF-</hotfixBranchPrefix>
                   <developmentBranch>development</developmentBranch>
-                  <productionBranch>development</productionBranch>
+                  <productionBranch>master</productionBranch>
               </gitFlowConfig>
             </configuration>
         </plugin>
