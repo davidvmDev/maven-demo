@@ -72,11 +72,12 @@
         <plugin>
             <groupId>com.amashchenko.maven.plugin</groupId>
             <artifactId>gitflow-maven-plugin</artifactId>
-            <version>1.19.0</version>
+            <version>1.11.0</version>
             <configuration>
               <gitFlowConfig>
                   <releaseBranchPrefix>release/RC-</releaseBranchPrefix>
                   <hotfixBranchPrefix>hotfix/HF-</hotfixBranchPrefix>
+                  <developmentBranch>development</developmentBranch>
                   <productionBranch>master</productionBranch>
               </gitFlowConfig>
             </configuration>
